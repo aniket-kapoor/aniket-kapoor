@@ -1,18 +1,6 @@
 <!-- Header -->
 <div align="center">
-
-```
-  ___  _   _ ___ _  _______ _____   _  __    _    ____   ___   ___  ____
- / _ \| \ | |_ _| |/ / ____|_   _| | |/ /   / \  |  _ \ / _ \ / _ \|  _ \
-| | | |  \| || || ' /|  _|   | |   | ' /   / _ \ | |_) | | | | | | | |_) |
-| |_| | |\  || || . \| |___  | |   | . \  / ___ \|  __/| |_| | |_| |  _ <
- \___/|_| \_|___|_|\_\_____| |_|   |_|\_\/_/   \_\_|    \___/ \___/|_| \_\
-```
-
-### 🔍 `I don't just write code — I fix broken things.`
-
-*B.Tech CSE @ 4th Semester · Backend Developer · Problem Hunter*
-
+  <img src="./card.svg" alt="Aniket's Profile Card" />
 </div>
 
 ---
