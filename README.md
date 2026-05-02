@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <img src="./card.svg" alt="Aniket's Profile Card" />
+  #Aniket Kapoor | Btech CS | 2nd Year
 </div>
 
 ---
