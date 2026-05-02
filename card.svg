@@ -1,0 +1,117 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d18;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111124;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#6366f1;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="glowTL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="glowBR" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:0" />
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect width="800" height="400" rx="20" ry="20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="800" height="400" rx="20" ry="20" fill="url(#bgGrad)" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Glow effects -->
+  <rect width="800" height="400" rx="20" ry="20" fill="url(#glowTL)" clip-path="url(#cardClip)"/>
+  <rect width="800" height="400" rx="20" ry="20" fill="url(#glowBR)" clip-path="url(#cardClip)"/>
+
+  <!-- Top bar dots -->
+  <circle cx="42" cy="38" r="6" fill="#ff5f57"/>
+  <circle cx="62" cy="38" r="6" fill="#febc2e"/>
+  <circle cx="82" cy="38" r="6" fill="#28c840"/>
+
+  <!-- Badge top right -->
+  <rect x="660" y="24" width="116" height="26" rx="6" ry="6" fill="#6366f1" fill-opacity="0.1" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="718" y="41" font-family="monospace" font-size="11" fill="#6366f1" text-anchor="middle">profile.config</text>
+
+  <!-- Avatar -->
+  <rect x="42" y="68" width="72" height="72" rx="14" ry="14" fill="url(#avatarGrad)"/>
+  <rect x="39" y="65" width="78" height="78" rx="17" ry="17" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-opacity="0.4"/>
+  <text x="78" y="112" font-family="monospace" font-size="22" font-weight="700" fill="white" text-anchor="middle">AK</text>
+
+  <!-- Name block -->
+  <text x="134" y="95" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="#f1f1f8" letter-spacing="-0.5">Aniket</text>
+  <text x="134" y="116" font-family="monospace" font-size="13" fill="#6366f1">@aniket_dev</text>
+  <text x="134" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#f1f1f8" font-weight="600">Backend Developer</text>
+  <text x="246" y="138" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="300"> who hunts bugs for sport.</text>
+  <text x="134" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8" font-weight="300">B.Tech CSE · 4th Semester · Problem Solver.</text>
+
+  <!-- Terminal quote box -->
+  <rect x="42" y="175" width="716" height="46" rx="8" ry="8" fill="#000000" fill-opacity="0.5" stroke="#6366f1" stroke-width="1" stroke-opacity="0.2"/>
+  <rect x="42" y="175" width="3" height="46" rx="1" fill="#6366f1"/>
+  <text x="58" y="192" font-family="monospace" font-size="13" fill="#14b8a6">$</text>
+  <text x="74" y="192" font-family="monospace" font-size="13" fill="#e2e8f0">I don't just write code</text>
+  <text x="74" y="210" font-family="monospace" font-size="13" fill="#e2e8f0">— I fix broken things.</text>
+  <rect x="422" y="198" width="8" height="14" fill="#6366f1" opacity="0.9"/>
+
+  <!-- Stats row -->
+  <!-- Stat 1 -->
+  <rect x="42" y="240" width="148" height="64" rx="10" ry="10" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="1" stroke-opacity="0.06"/>
+  <text x="116" y="270" font-family="monospace" font-size="20" font-weight="700" fill="#f1f1f8" text-anchor="middle"><tspan fill="#6366f1">4</tspan>th</text>
+  <text x="116" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">SEMESTER</text>
+
+  <!-- Stat 2 -->
+  <rect x="202" y="240" width="148" height="64" rx="10" ry="10" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="1" stroke-opacity="0.06"/>
+  <text x="276" y="270" font-family="monospace" font-size="20" font-weight="700" fill="#f1f1f8" text-anchor="middle">B.Tech</text>
+  <text x="276" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">DEGREE</text>
+
+  <!-- Stat 3 -->
+  <rect x="362" y="240" width="148" height="64" rx="10" ry="10" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="1" stroke-opacity="0.06"/>
+  <text x="436" y="270" font-family="monospace" font-size="20" font-weight="700" fill="#6366f1" text-anchor="middle">&#8734;</text>
+  <text x="436" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">BUGS FIXED</text>
+
+  <!-- Stat 4 -->
+  <rect x="522" y="240" width="236" height="64" rx="10" ry="10" fill="#ffffff" fill-opacity="0.03" stroke="#ffffff" stroke-width="1" stroke-opacity="0.06"/>
+  <text x="640" y="270" font-family="monospace" font-size="20" font-weight="700" fill="#f1f1f8" text-anchor="middle">CSE</text>
+  <text x="640" y="290" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="middle" letter-spacing="1">BRANCH</text>
+
+  <!-- Divider -->
+  <rect x="42" y="320" width="716" height="1" fill="url(#dividerGrad)"/>
+
+  <!-- Tags -->
+  <!-- backend-dev -->
+  <rect x="42" y="332" width="106" height="26" rx="6" ry="6" fill="#6366f1" fill-opacity="0.08" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="95" y="349" font-family="monospace" font-size="11" fill="#a5b4fc" text-anchor="middle">backend-dev</text>
+
+  <!-- problem-hunter -->
+  <rect x="156" y="332" width="122" height="26" rx="6" ry="6" fill="#14b8a6" fill-opacity="0.08" stroke="#14b8a6" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="217" y="349" font-family="monospace" font-size="11" fill="#5eead4" text-anchor="middle">problem-hunter</text>
+
+  <!-- api-design -->
+  <rect x="286" y="332" width="92" height="26" rx="6" ry="6" fill="#6366f1" fill-opacity="0.08" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="332" y="349" font-family="monospace" font-size="11" fill="#a5b4fc" text-anchor="middle">api-design</text>
+
+  <!-- debugger -->
+  <rect x="386" y="332" width="82" height="26" rx="6" ry="6" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="427" y="349" font-family="monospace" font-size="11" fill="#fcd34d" text-anchor="middle">debugger</text>
+
+  <!-- open-to-collab -->
+  <rect x="476" y="332" width="124" height="26" rx="6" ry="6" fill="#6366f1" fill-opacity="0.08" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+  <text x="538" y="349" font-family="monospace" font-size="11" fill="#a5b4fc" text-anchor="middle">open-to-collab</text>
+
+  <!-- Divider 2 -->
+  <rect x="42" y="370" width="716" height="1" fill="url(#dividerGrad)"/>
+
+  <!-- Footer -->
+  <circle cx="54" cy="387" r="4" fill="#22c55e"/>
+  <text x="64" y="391" font-family="monospace" font-size="12" fill="#475569">available for projects</text>
+  <text x="758" y="391" font-family="monospace" font-size="12" fill="#475569" text-anchor="end">est. 2025 · v2.0</text>
+</svg>
