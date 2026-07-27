@@ -7,7 +7,7 @@
 
 ## 👋 Hey there! I'm Aniket.
 
-I'm one of those people who can't walk past a broken system without wanting to fix it.
+I'm the one of those who likes to build solutions for problems that persists in our society .
 
 Whether it's a government loophole enabling GST fraud, vaccine records scattered across hospitals, or a clunky checkout flow — I see it, I **obsess** over it, and then I build something about it.
 
